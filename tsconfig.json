@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Целевая версия ECMAScript
+    "module": "esnext", // Формат модуля
+    "strict": true, // Включить строгий режим
+    "moduleResolution": "node", // Разрешение модулей
+    "esModuleInterop": true, // Совместимость с ES модулями
+    "allowSyntheticDefaultImports": true, // Разрешить импорт модулей без default export
+    "experimentalDecorators": true, // Разрешить декораторы
+    "forceConsistentCasingInFileNames": true, // Принудительно использовать одинаковый регистр в именах файлов
+    "baseUrl": ".", // Базовый URL для путей
+    "paths": {
+      "@/*": ["./src/*"] // Псевдонимы путей
+    }
+  },
+  "include": [
+    "src/**/*.vue", // Включить все Vue файлы
+    "src/**/*.ts" // Включить все TypeScript файлы
+  ]
+}

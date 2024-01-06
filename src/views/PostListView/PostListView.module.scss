@@ -1,0 +1,35 @@
+.post-list-view {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-item {
+  background-color: #007bff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  text-align: left;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.post-title,
+.post-body {
+  margin: 5px 0;
+  color: #000;
+
+  span {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(179, 31, 12);
+  }
+}
